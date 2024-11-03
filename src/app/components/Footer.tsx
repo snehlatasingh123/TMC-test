@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
 
@@ -75,9 +77,9 @@ const Footer: React.FC = () => {
         <div className="my-4 -mx-8 border-t border-gray-600"></div>
 
         <div className="mt-2">
-          <a href="#" className="text-gray-400 text-base hover:text-white underline">Terms of service</a>
+          <a className="text-gray-400 text-base hover:text-white underline">Terms of service</a>
           <span className="mx-2">·</span>
-          <a href="#" className="text-gray-400 text-base hover:text-white underline">Privacy policy</a>
+          <a className="text-gray-400 text-base hover:text-white underline">Privacy policy</a>
         </div>
 
       </div>
