@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 
 interface ArticleProps {
@@ -43,7 +43,7 @@ const articles: ArticleProps[] = [
 ];
 
 const TopStories: React.FC = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+//   const [currentIndex, setCurrentIndex] = useState(0);
 
 //   useEffect(() => {
 //     const interval = setInterval(() => {
@@ -53,10 +53,10 @@ const TopStories: React.FC = () => {
 //     return () => clearInterval(interval);
 //   }, []);
 
-  const getTransformStyle = (): React.CSSProperties => {
-    const offset = currentIndex * -87.5; // Adjusts the carousel shift
-    return { transform: `translateX(${offset}%)` };
-  };
+//   const getTransformStyle = (): React.CSSProperties => {
+//     const offset = currentIndex * -87.5; // Adjusts the carousel shift
+//     return { transform: `translateX(${offset}%)` };
+//   };
 
   return (
     <div className="bg-[#FFF9F1] relative overflow-hidden w-full p-4 pt-8  mx-auto">
@@ -65,7 +65,7 @@ const TopStories: React.FC = () => {
       
       <div
         className="flex transition-transform duration-700 ease-in-out"
-        style={getTransformStyle()}
+        
       >
 
         {articles.map((article, index) => (

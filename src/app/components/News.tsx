@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 interface NewsCardProps {
   title: string;
@@ -16,7 +16,7 @@ const newsData: NewsCardProps[] = [
 ];
 
 const News: React.FC = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+//   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Automatically advance the carousel every 5 seconds
 //   useEffect(() => {
@@ -28,16 +28,15 @@ const News: React.FC = () => {
 //   }, []);
 
   // Calculate the transform style based on the current index
-  const getTransformStyle = (): React.CSSProperties => {
-    const offset = currentIndex * -87.5; // Show 1/8 part of the next card
-    return { transform: `translateX(${offset}%)` };
-  };
+//   const getTransformStyle = (): React.CSSProperties => {
+//     const offset = currentIndex * -87.5; // Show 1/8 part of the next card
+//     return { transform: `translateX(${offset}%)` };
+//   };
 
   return (
     <div className="bg-[#FFF9F1] relative overflow-hidden w-full p-4 pt-8 mx-auto">
       <div
         className="flex transition-transform duration-700 ease-in-out"
-        style={getTransformStyle()}
       >
         {newsData.map((news, index) => (
           <div
