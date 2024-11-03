@@ -45,7 +45,7 @@ const LatestNewsletters: React.FC = () => {
   return (
     <section className="p-4 bg-[#FFF9F1]">
       <h1 className="font-playfair font-bold text-center text-4xl mb-4 text-black">Latest Newsletters</h1>
-      <p className="text-black text-center">A wealth of knowledge from India's top writers curated for you by The Morning Context.</p>
+      <p className="text-black text-center">A wealth of knowledge from Indias top writers curated for you by The Morning Context.</p>
       <div className="space-y-4">
         
           <div className="rounded-lg ">
