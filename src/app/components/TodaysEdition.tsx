@@ -33,7 +33,7 @@ const articles: ArticleProps[] = [
       "In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.",
     authorImage: "/Author-avatar.svg",
     author: "Ashish K. Mishra",
-    readTime: "7 min read",
+    readTime: "5 min read",
     comments: 15,
   },
   {
@@ -44,7 +44,7 @@ const articles: ArticleProps[] = [
       "In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.",
     authorImage: "/Author-avatar.svg",
     author: "Ashish K. Mishra",
-    readTime: "6 min read",
+    readTime: "5 min read",
     comments: 42,
   },
 ];
