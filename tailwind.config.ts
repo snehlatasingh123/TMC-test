@@ -21,8 +21,10 @@ const config: Config = {
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
         lato: ['Lato', 'sans-serif'],
-        haas: ['"Work Sans"', 'sans-serif'],
-        'abril': ['"Abril Fatface"', 'sans-serif'],
+        haas: ['NeueHaasDisplayThin', 'sans-serif'],
+        abril: ['"Abril Fatface"', 'sans-serif'],
+        matteo: ['Matteo', 'sans-serif'],
+        matteoregular: ['Matteo-Regular', 'sans-serif'],
       },
       height: {
         '210': '210px',

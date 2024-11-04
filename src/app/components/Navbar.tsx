@@ -1,6 +1,6 @@
 "use client";
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const Navbar: React.FC = () => {
   return (
@@ -12,7 +12,12 @@ const Navbar: React.FC = () => {
       </div>
       {/* Right Section: Search Icon and Sign-Up Button */}
       <div className="flex items-center space-x-4">
-        <Image src="/search-icon.svg" alt="Search-Icon" width={18} height={18} />
+        <Image
+          src="/search-icon.svg"
+          alt="Search-Icon"
+          width={18}
+          height={18}
+        />
         <Image src="/signup-button.svg" alt="Logo" width={108} height={36} />
       </div>
     </nav>

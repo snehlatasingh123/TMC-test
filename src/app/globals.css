@@ -25,3 +25,39 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Add this to your global CSS file or inside a <style jsx global> tag if using a CSS module */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@font-face {
+  font-family: 'Matteo';
+  src: url('/fonts/Matteo-Extralight.ttf') format('truetype'); /* Adjust the format if necessary */
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'Matteo-Extralight';
+  src: url('/fonts/Matteo-Extralight.ttf') format('truetype'); /* Adjust the format if necessary */
+  font-weight: semibold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Matteo-Regular';
+  src: url('/fonts/Matteo-Regular.ttf') format('truetype'); /* Adjust the format if necessary */
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplayThin';
+  src: url('/fonts/NeueHaasDisplayThin.ttf') format('truetype'); /* Adjust the format if necessary */
+  /* font-weight: normal;
+  font-style: normal; */
+}

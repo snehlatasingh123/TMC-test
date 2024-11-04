@@ -18,10 +18,13 @@ module.exports = {
         'xxs': '10px', // Define a custom size smaller than text-xs
       },
       fontFamily: {
-        playfair: ['"Playfair Display"', 'serif'],
+        playfair: ['Playfair Display', 'serif'],
         lato: ['Lato', 'sans-serif'],
-        haas: ['"Work Sans"', 'sans-serif'],
-        'abril': ['"Abril Fatface"', 'sans-serif'],
+        haas: ['NeueHaasDisplayThin', 'sans-serif'],
+        abril: ['Abril Fatface', 'sans-serif'],
+        matteo: ['Matteo', 'sans-serif'],
+        matteolight: ['Matteo-Extralight', 'sans-serif'],
+        matteoregular: ['Matteo-Regular', 'sans-serif'],
       },
       height: {
         '210': '210px',
