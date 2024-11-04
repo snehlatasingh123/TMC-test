@@ -8,7 +8,6 @@ interface ArticleProps {
   title: string;
   authorImage: string;
   author: string;
-  readTime: string;
   comments: number;
 }
 
@@ -18,7 +17,6 @@ const articles: ArticleProps[] = [
     title: "Johnny Depp’s doctor, nurse testify; actor expected to take stand",
     authorImage: "/Author-avatar.svg",
     author: "Ashish K. Mishra",
-    readTime: "5 min read",
     comments: 29,
   },
   {
@@ -27,7 +25,6 @@ const articles: ArticleProps[] = [
       "A Democrat in gym shorts tries to rally blue votes in Trump country",
     authorImage: "/Author-avatar.svg",
     author: "Ashish K. Mishra",
-    readTime: "7 min read",
     comments: 15,
   },
 ];
@@ -132,11 +129,8 @@ const LatestNewsletters: React.FC = () => {
                 height={32}
                 className="rounded-full"
               />
-              <span className=" text-base font-haas text-black">
+              <span className=" text-base font-haas text-black mr-20">
                 Ashish K. Mishra
-              </span>
-              <span className=" text-base font-haas text-[#6B7280]">
-                5 min read
               </span>
               <span className="flex items-center space-x-1">
                 <div className="w-[1px] h-[15px] bg-gray-500 mr-2"></div>
