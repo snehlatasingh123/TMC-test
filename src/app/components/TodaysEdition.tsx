@@ -91,7 +91,7 @@ const TodaysEdition: React.FC = () => {
                 height={32}
                 className="rounded-full"
               />
-              <span className=" text-base font-haas text-black">
+              <span className=" text-base font-haas text-black mr-6">
                 {article.author}
               </span>
               <span className=" text-base font-haas text-[#6B7280] ">
@@ -105,7 +105,7 @@ const TodaysEdition: React.FC = () => {
                   width={20}
                   height={20}
                 />
-                <span className=" text-base font-haas  pl-2">
+                <span className=" text-base font-haas  pl-1">
                   {article.comments}
                 </span>
               </span>
